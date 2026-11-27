@@ -1,0 +1,120 @@
+{
+ "tag": "18t_nup3_U8_k",
+ "cluster": "18t",
+ "N": 18,
+ "nup": 3,
+ "ndn": 3,
+ "n": 0.3333333333333333,
+ "U": 8.0,
+ "method": "k",
+ "est_gb": 0.31,
+ "need_free_gb": 2.85,
+ "seed": 0,
+ "python": "3.13.5",
+ "sector_dim": 36992,
+ "R_max": 3.0,
+ "shell0": [
+  13
+ ],
+ "mem_available_at_start_gb": 7.07,
+ "point_group": [
+  "E",
+  "C4",
+  "C2",
+  "C4^3",
+  "Mxy",
+  "Mx",
+  "My",
+  "Mxy'"
+ ],
+ "k_reduction": "stars under detected point group ['E', 'C4', 'C2', 'C4^3', 'Mxy', 'Mx', 'My', \"Mxy'\"]",
+ "E0": -14.928106984752985,
+ "deg": 1,
+ "solver": "K-sector Lanczos + deflation (ed_solver/hubbard_k.py)",
+ "residual_max": 2.5150879414955783e-09,
+ "P_d": 3.238799230732181e-05,
+ "P_org": 6.477598461464362e-05,
+ "sectors": [
+  {
+   "K_over_pi": [
+    0.0,
+    0.0
+   ],
+   "star_size": 1,
+   "E": -14.92810698475299,
+   "sector_dim": 39168,
+   "matvecs": 85,
+   "seconds": 0.9,
+   "E_refined": -14.928106984752985,
+   "in_ground_manifold": true,
+   "deg_in_sector": 1,
+   "P_d_each": [
+    3.238799230732181e-05
+   ],
+   "residuals": [
+    2.5150879414955783e-09
+   ]
+  },
+  {
+   "K_over_pi": [
+    0.0,
+    0.666667
+   ],
+   "star_size": 4,
+   "E": -14.653786013381993,
+   "sector_dim": 39168,
+   "matvecs": 75,
+   "seconds": 0.8
+  },
+  {
+   "K_over_pi": [
+    0.333333,
+    0.333333
+   ],
+   "star_size": 4,
+   "E": -14.059930845494279,
+   "sector_dim": 39168,
+   "matvecs": 140,
+   "seconds": 1.5
+  },
+  {
+   "K_over_pi": [
+    0.333333,
+    1.0
+   ],
+   "star_size": 4,
+   "E": -13.960352340339997,
+   "sector_dim": 39168,
+   "matvecs": 150,
+   "seconds": 1.7
+  },
+  {
+   "K_over_pi": [
+    0.666667,
+    0.666667
+   ],
+   "star_size": 4,
+   "E": -14.432189997879597,
+   "sector_dim": 39168,
+   "matvecs": 65,
+   "seconds": 0.7
+  },
+  {
+   "K_over_pi": [
+    1.0,
+    1.0
+   ],
+   "star_size": 1,
+   "E": -13.68703076660601,
+   "sector_dim": 39168,
+   "matvecs": 140,
+   "seconds": 1.5
+  }
+ ],
+ "matvecs": 1035,
+ "dim_total": 665856,
+ "runtime_s": 11.4,
+ "peak_rss_gb": 0.684,
+ "status": "ok",
+ "time": "2026-11-26 07:51:42 EST"
+}

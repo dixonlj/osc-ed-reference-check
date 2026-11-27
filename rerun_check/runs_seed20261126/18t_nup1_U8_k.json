@@ -1,0 +1,120 @@
+{
+ "tag": "18t_nup1_U8_k",
+ "cluster": "18t",
+ "N": 18,
+ "nup": 1,
+ "ndn": 1,
+ "n": 0.1111111111111111,
+ "U": 8.0,
+ "method": "k",
+ "est_gb": 0.3,
+ "need_free_gb": 2.85,
+ "seed": 0,
+ "python": "3.13.5",
+ "sector_dim": 18,
+ "R_max": 3.0,
+ "shell0": [
+  13
+ ],
+ "mem_available_at_start_gb": 7.08,
+ "point_group": [
+  "E",
+  "C4",
+  "C2",
+  "C4^3",
+  "Mxy",
+  "Mx",
+  "My",
+  "Mxy'"
+ ],
+ "k_reduction": "stars under detected point group ['E', 'C4', 'C2', 'C4^3', 'Mxy', 'Mx', 'My', \"Mxy'\"]",
+ "E0": -7.791949139766609,
+ "deg": 1,
+ "solver": "K-sector Lanczos + deflation (ed_solver/hubbard_k.py)",
+ "residual_max": 9.014593266466655e-13,
+ "P_d": 2.796982919250511e-30,
+ "P_org": 5.593965838501022e-30,
+ "sectors": [
+  {
+   "K_over_pi": [
+    0.0,
+    0.0
+   ],
+   "star_size": 1,
+   "E": -7.791949139766605,
+   "sector_dim": 18,
+   "matvecs": 15,
+   "seconds": 0.0,
+   "E_refined": -7.791949139766609,
+   "in_ground_manifold": true,
+   "deg_in_sector": 1,
+   "P_d_each": [
+    2.796982919250511e-30
+   ],
+   "residuals": [
+    9.014593266466655e-13
+   ]
+  },
+  {
+   "K_over_pi": [
+    0.0,
+    0.666667
+   ],
+   "star_size": 4,
+   "E": -5.000000000000024,
+   "sector_dim": 18,
+   "matvecs": 20,
+   "seconds": 0.0
+  },
+  {
+   "K_over_pi": [
+    0.333333,
+    0.333333
+   ],
+   "star_size": 4,
+   "E": -6.000000000000016,
+   "sector_dim": 18,
+   "matvecs": 15,
+   "seconds": 0.0
+  },
+  {
+   "K_over_pi": [
+    0.333333,
+    1.0
+   ],
+   "star_size": 4,
+   "E": -3.000000000000001,
+   "sector_dim": 18,
+   "matvecs": 6,
+   "seconds": 0.0
+  },
+  {
+   "K_over_pi": [
+    0.666667,
+    0.666667
+   ],
+   "star_size": 4,
+   "E": -3.8652614818591244,
+   "sector_dim": 18,
+   "matvecs": 15,
+   "seconds": 0.0
+  },
+  {
+   "K_over_pi": [
+    1.0,
+    1.0
+   ],
+   "star_size": 1,
+   "E": 3.947130329242203e-15,
+   "sector_dim": 18,
+   "matvecs": 2,
+   "seconds": 0.0
+  }
+ ],
+ "matvecs": 133,
+ "dim_total": 324,
+ "runtime_s": 0.0,
+ "peak_rss_gb": 0.684,
+ "status": "ok",
+ "time": "2026-11-26 07:51:30 EST"
+}

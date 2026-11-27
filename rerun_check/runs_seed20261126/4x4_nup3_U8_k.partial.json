@@ -1,0 +1,84 @@
+{
+ "energy": {
+  "0": {
+   "K_over_pi": [
+    0.0,
+    0.0
+   ],
+   "star_size": 1,
+   "E": -14.7235403179076,
+   "sector_dim": 19600,
+   "matvecs": 70,
+   "seconds": 0.2
+  },
+  "1": {
+   "K_over_pi": [
+    0.0,
+    0.5
+   ],
+   "star_size": 4,
+   "E": -13.27858210853691,
+   "sector_dim": 19600,
+   "matvecs": 105,
+   "seconds": 0.2
+  },
+  "2": {
+   "K_over_pi": [
+    0.0,
+    1.0
+   ],
+   "star_size": 2,
+   "E": -14.360274488604404,
+   "sector_dim": 19600,
+   "matvecs": 60,
+   "seconds": 0.1
+  },
+  "5": {
+   "K_over_pi": [
+    0.5,
+    0.5
+   ],
+   "star_size": 4,
+   "E": -14.360274488604404,
+   "sector_dim": 19600,
+   "matvecs": 60,
+   "seconds": 0.1
+  },
+  "6": {
+   "K_over_pi": [
+    0.5,
+    1.0
+   ],
+   "star_size": 4,
+   "E": -12.9330822433684,
+   "sector_dim": 19600,
+   "matvecs": 155,
+   "seconds": 0.3
+  },
+  "10": {
+   "K_over_pi": [
+    1.0,
+    1.0
+   ],
+   "star_size": 1,
+   "E": -14.416133542064104,
+   "sector_dim": 19600,
+   "matvecs": 55,
+   "seconds": 0.1
+  }
+ },
+ "ground": {
+  "0": {
+   "E_refined": -14.723540317907599,
+   "matvecs": 320,
+   "deg_in_sector": 1,
+   "P_d_each": [
+    -0.006865426293030136
+   ],
+   "residuals": [
+    9.79916879707155e-10
+   ]
+  }
+ },
+ "elapsed_s": 1.8820571899414062
+}
