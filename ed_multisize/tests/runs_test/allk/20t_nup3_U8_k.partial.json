@@ -1,0 +1,238 @@
+{
+ "energy": {
+  "0": {
+   "K_over_pi": [
+    0.0,
+    0.0
+   ],
+   "star_size": 1,
+   "E": -15.975228413913337,
+   "sector_dim": 64980,
+   "matvecs": 85,
+   "seconds": 1.9
+  },
+  "1": {
+   "K_over_pi": [
+    0.0,
+    1.0
+   ],
+   "star_size": 1,
+   "E": -14.776340932909505,
+   "sector_dim": 64980,
+   "matvecs": 155,
+   "seconds": 3.3
+  },
+  "2": {
+   "K_over_pi": [
+    0.2,
+    0.6
+   ],
+   "star_size": 1,
+   "E": -15.711125167324836,
+   "sector_dim": 64980,
+   "matvecs": 75,
+   "seconds": 1.7
+  },
+  "3": {
+   "K_over_pi": [
+    0.2,
+    1.6
+   ],
+   "star_size": 1,
+   "E": -14.91367273129488,
+   "sector_dim": 64980,
+   "matvecs": 135,
+   "seconds": 3.0
+  },
+  "4": {
+   "K_over_pi": [
+    0.4,
+    0.2
+   ],
+   "star_size": 1,
+   "E": -14.913672731294843,
+   "sector_dim": 64980,
+   "matvecs": 125,
+   "seconds": 2.8
+  },
+  "5": {
+   "K_over_pi": [
+    0.4,
+    1.2
+   ],
+   "star_size": 1,
+   "E": -15.510093078228206,
+   "sector_dim": 64980,
+   "matvecs": 75,
+   "seconds": 1.7
+  },
+  "6": {
+   "K_over_pi": [
+    0.6,
+    0.8
+   ],
+   "star_size": 1,
+   "E": -14.758052704818367,
+   "sector_dim": 64980,
+   "matvecs": 115,
+   "seconds": 2.7
+  },
+  "7": {
+   "K_over_pi": [
+    0.6,
+    1.8
+   ],
+   "star_size": 1,
+   "E": -15.711125167324855,
+   "sector_dim": 64980,
+   "matvecs": 75,
+   "seconds": 1.6
+  },
+  "8": {
+   "K_over_pi": [
+    0.8,
+    0.4
+   ],
+   "star_size": 1,
+   "E": -15.510093078228204,
+   "sector_dim": 64980,
+   "matvecs": 75,
+   "seconds": 1.7
+  },
+  "9": {
+   "K_over_pi": [
+    0.8,
+    1.4
+   ],
+   "star_size": 1,
+   "E": -14.758052704818489,
+   "sector_dim": 64980,
+   "matvecs": 120,
+   "seconds": 2.7
+  },
+  "10": {
+   "K_over_pi": [
+    1.0,
+    0.0
+   ],
+   "star_size": 1,
+   "E": -14.776340932909443,
+   "sector_dim": 64980,
+   "matvecs": 155,
+   "seconds": 3.3
+  },
+  "11": {
+   "K_over_pi": [
+    1.0,
+    1.0
+   ],
+   "star_size": 1,
+   "E": -13.633771024615916,
+   "sector_dim": 64980,
+   "matvecs": 265,
+   "seconds": 5.6
+  },
+  "12": {
+   "K_over_pi": [
+    1.2,
+    0.6
+   ],
+   "star_size": 1,
+   "E": -14.75805270481852,
+   "sector_dim": 64980,
+   "matvecs": 120,
+   "seconds": 2.5
+  },
+  "13": {
+   "K_over_pi": [
+    1.2,
+    1.6
+   ],
+   "star_size": 1,
+   "E": -15.51009307822821,
+   "sector_dim": 64980,
+   "matvecs": 75,
+   "seconds": 1.7
+  },
+  "14": {
+   "K_over_pi": [
+    1.4,
+    0.2
+   ],
+   "star_size": 1,
+   "E": -15.711125167324859,
+   "sector_dim": 64980,
+   "matvecs": 75,
+   "seconds": 1.6
+  },
+  "15": {
+   "K_over_pi": [
+    1.4,
+    1.2
+   ],
+   "star_size": 1,
+   "E": -14.758052704818441,
+   "sector_dim": 64980,
+   "matvecs": 120,
+   "seconds": 2.5
+  },
+  "16": {
+   "K_over_pi": [
+    1.6,
+    0.8
+   ],
+   "star_size": 1,
+   "E": -15.51009307822821,
+   "sector_dim": 64980,
+   "matvecs": 75,
+   "seconds": 1.6
+  },
+  "17": {
+   "K_over_pi": [
+    1.6,
+    1.8
+   ],
+   "star_size": 1,
+   "E": -14.913672731294907,
+   "sector_dim": 64980,
+   "matvecs": 130,
+   "seconds": 2.8
+  },
+  "18": {
+   "K_over_pi": [
+    1.8,
+    0.4
+   ],
+   "star_size": 1,
+   "E": -14.913672731294882,
+   "sector_dim": 64980,
+   "matvecs": 130,
+   "seconds": 2.9
+  },
+  "19": {
+   "K_over_pi": [
+    1.8,
+    1.4
+   ],
+   "star_size": 1,
+   "E": -15.711125167324855,
+   "sector_dim": 64980,
+   "matvecs": 75,
+   "seconds": 1.7
+  }
+ },
+ "ground": {
+  "0": {
+   "E_refined": -15.975228413913307,
+   "matvecs": 390,
+   "deg_in_sector": 1,
+   "P_d_each": [
+    -0.0009188926813766465
+   ],
+   "residuals": [
+    1.0496813295940516e-09
+   ]
+  }
+ },
+ "elapsed_s": 57.99278140068054
+}

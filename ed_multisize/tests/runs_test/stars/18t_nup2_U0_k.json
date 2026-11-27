@@ -1,0 +1,146 @@
+{
+ "tag": "18t_nup2_U0_k",
+ "cluster": "18t",
+ "N": 18,
+ "nup": 2,
+ "ndn": 2,
+ "n": 0.2222222222222222,
+ "U": 0.0,
+ "method": "k",
+ "est_gb": 0.3,
+ "need_free_gb": 2.85,
+ "seed": 0,
+ "python": "3.13.5",
+ "sector_dim": 1300,
+ "R_max": 3.0,
+ "shell0": [
+  13
+ ],
+ "mem_available_at_start_gb": 5.19,
+ "point_group": [
+  "E",
+  "C4",
+  "C2",
+  "C4^3",
+  "Mxy",
+  "Mx",
+  "My",
+  "Mxy'"
+ ],
+ "k_reduction": "stars under detected point group ['E', 'C4', 'C2', 'C4^3', 'Mxy', 'Mx', 'My', \"Mxy'\"]",
+ "E0": -12.000000000000004,
+ "deg": 16,
+ "solver": "K-sector Lanczos + deflation (ed_solver/hubbard_k.py)",
+ "residual_max": 5.043882476730424e-09,
+ "P_d": 1.9059324671608375e-22,
+ "P_org": 3.811864934321675e-22,
+ "sectors": [
+  {
+   "K_over_pi": [
+    0.0,
+    0.0
+   ],
+   "star_size": 1,
+   "E": -12.0,
+   "sector_dim": 1377,
+   "matvecs": 25,
+   "seconds": 0.0,
+   "E_refined": -11.999999999999998,
+   "in_ground_manifold": true,
+   "deg_in_sector": 4,
+   "P_d_each": [
+    3.368786397215205e-29,
+    -9.013400188122783e-28,
+    -2.2613315564040016e-27,
+    -4.3379063546090944e-27
+   ],
+   "residuals": [
+    1.9622220631215354e-13,
+    1.5749358037962693e-11,
+    1.0709520868557507e-11,
+    8.55371027410814e-12
+   ]
+  },
+  {
+   "K_over_pi": [
+    0.0,
+    0.666667
+   ],
+   "star_size": 4,
+   "E": -12.0,
+   "sector_dim": 1377,
+   "matvecs": 30,
+   "seconds": 0.0,
+   "E_refined": -12.000000000000004,
+   "in_ground_manifold": true,
+   "deg_in_sector": 2,
+   "P_d_each": [
+    2.709906639855538e-25,
+    1.1434912950415865e-22
+   ],
+   "residuals": [
+    1.650995440315874e-11,
+    3.022887218990515e-10
+   ]
+  },
+  {
+   "K_over_pi": [
+    0.333333,
+    0.333333
+   ],
+   "star_size": 4,
+   "E": -11.000000000000005,
+   "sector_dim": 1377,
+   "matvecs": 25,
+   "seconds": 0.0
+  },
+  {
+   "K_over_pi": [
+    0.333333,
+    1.0
+   ],
+   "star_size": 4,
+   "E": -11.000000000000002,
+   "sector_dim": 1377,
+   "matvecs": 25,
+   "seconds": 0.0
+  },
+  {
+   "K_over_pi": [
+    0.666667,
+    0.666667
+   ],
+   "star_size": 4,
+   "E": -11.999999999999995,
+   "sector_dim": 1377,
+   "matvecs": 30,
+   "seconds": 0.0,
+   "E_refined": -11.999999999999993,
+   "in_ground_manifold": true,
+   "deg_in_sector": 1,
+   "P_d_each": [
+    6.477547334187073e-22
+   ],
+   "residuals": [
+    5.043882476730424e-09
+   ]
+  },
+  {
+   "K_over_pi": [
+    1.0,
+    1.0
+   ],
+   "star_size": 1,
+   "E": -8.0,
+   "sector_dim": 1377,
+   "matvecs": 20,
+   "seconds": 0.0
+  }
+ ],
+ "matvecs": 765,
+ "dim_total": 23409,
+ "runtime_s": 0.3,
+ "peak_rss_gb": 0.131,
+ "status": "ok",
+ "time": "2026-11-26 08:06:07 EST"
+}

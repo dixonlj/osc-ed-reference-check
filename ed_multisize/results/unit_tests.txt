@@ -1,0 +1,61 @@
+PASS 18t has 18 sites
+PASS 18t 4 distinct neighbours per site
+PASS 18t point group ['E', 'C4', 'C2', 'C4^3', 'Mxy', 'Mx', 'My', "Mxy'"]  ['E', 'C4', 'C2', 'C4^3', 'Mxy', 'Mx', 'My', "Mxy'"]
+PASS 18t 18 K points with K.a in 2piZ
+PASS 18t stars partition K  [1, 4, 4, 4, 4, 1]
+PASS 20t has 20 sites
+PASS 20t 4 distinct neighbours per site
+PASS 20t point group ['E', 'C4', 'C2', 'C4^3']  ['E', 'C4', 'C2', 'C4^3']
+PASS 20t 20 K points with K.a in 2piZ
+PASS 20t stars partition K  [1, 2, 4, 4, 4, 4, 1]
+PASS 18t nup=2 [H,T_g]=0 for all 18 translations  max err 7.1e-15
+PASS 18t nup=2 [H,P]=0 for detected point-group ops  max err 7.1e-15
+PASS 18t nup=3 [H,T_g]=0 for all 18 translations  max err 1.4e-14
+PASS 18t nup=3 [H,P]=0 for detected point-group ops  max err 1.4e-14
+PASS 20t nup=2 [H,T_g]=0 for all 20 translations  max err 7.1e-15
+PASS 20t nup=2 [H,P]=0 for detected point-group ops  max err 7.1e-15
+PASS 20t nup=3 [H,T_g]=0 for all 20 translations  max err 1.4e-14
+PASS 20t nup=3 [H,P]=0 for detected point-group ops  max err 7.1e-15
+PASS 18t nup=1 U=0 E0 = free-fermion -8.0000000000  got -8.0000000000
+PASS 18t nup=1 U=0 P_d = Wick -0.0000000000  got 0.0000000000 deg 1
+PASS 18t nup=2 U=0 E0 = free-fermion -12.0000000000  got -12.0000000000
+info 18t nup=2 U=0 open shell (degenerate Fermi level): Wick check n/a, deg=16
+PASS 18t nup=3 U=0 E0 = free-fermion -16.0000000000  got -16.0000000000
+info 18t nup=3 U=0 open shell (degenerate Fermi level): Wick check n/a, deg=36
+PASS 18t nup=4 U=0 E0 = free-fermion -20.0000000000  got -20.0000000000
+info 18t nup=4 U=0 open shell (degenerate Fermi level): Wick check n/a, deg=16
+PASS 20t nup=1 U=0 E0 = free-fermion -8.0000000000  got -8.0000000000
+PASS 20t nup=1 U=0 P_d = Wick 0.0000000000  got 0.0000000000 deg 1
+PASS 20t nup=2 U=0 E0 = free-fermion -12.4721359550  got -12.4721359550
+info 20t nup=2 U=0 open shell (degenerate Fermi level): Wick check n/a, deg=16
+PASS 20t nup=3 U=0 E0 = free-fermion -16.9442719100  got -16.9442719100
+info 20t nup=3 U=0 open shell (degenerate Fermi level): Wick check n/a, deg=36
+PASS 20t nup=4 U=0 E0 = free-fermion -21.4164078650  got -21.4164078650
+info 20t nup=4 U=0 open shell (degenerate Fermi level): Wick check n/a, deg=16
+PASS 18t nup=2 U=8 E0 K vs plain  K -11.4322097092 plain -11.4322097092
+PASS 18t nup=2 U=8 degeneracy K vs plain  K 1 plain 1
+PASS 18t nup=2 U=8 P_org K vs plain  K -0.0000416713 plain -0.0000416713
+PASS 18t nup=2 U=8 sector energies equal within each star  max spread 8.9e-15
+PASS 18t nup=2 U=8 all-K run = star run  P_org -0.0000416713 vs -0.0000416713
+info 18t nup=2 n=0.222 U=8 E0=-11.4322097092 deg=1 P_org=-4.1671342e-05
+PASS 18t nup=3 U=8 E0 K vs plain  K -14.9281069848 plain -14.9281069848
+PASS 18t nup=3 U=8 degeneracy K vs plain  K 1 plain 1
+PASS 18t nup=3 U=8 P_org K vs plain  K 0.0000647760 plain 0.0000647760
+PASS 18t nup=3 U=8 sector energies equal within each star  max spread 1.6e-13
+PASS 18t nup=3 U=8 all-K run = star run  P_org 0.0000647760 vs 0.0000647760
+info 18t nup=3 n=0.333 U=8 E0=-14.9281069848 deg=1 P_org=6.4775984e-05
+PASS 20t nup=2 U=8 E0 K vs plain  K -11.9570722151 plain -11.9570722151
+PASS 20t nup=2 U=8 degeneracy K vs plain  K 1 plain 1
+PASS 20t nup=2 U=8 P_org K vs plain  K 0.0074789534 plain 0.0074789534
+PASS 20t nup=2 U=8 sector energies equal within each star  max spread 5.3e-15
+PASS 20t nup=2 U=8 all-K run = star run  P_org 0.0074789534 vs 0.0074789534
+info 20t nup=2 n=0.200 U=8 E0=-11.9570722151 deg=1 P_org=0.0074789534
+PASS 20t nup=3 U=8 E0 K vs plain  K -15.9752284139 plain -15.9752284139
+PASS 20t nup=3 U=8 degeneracy K vs plain  K 1 plain 1
+PASS 20t nup=3 U=8 P_org K vs plain  K -0.0018377854 plain -0.0018377854
+PASS 20t nup=3 U=8 sector energies equal within each star  max spread 1.5e-13
+PASS 20t nup=3 U=8 all-K run = star run  P_org -0.0018377854 vs -0.0018377854
+info 20t nup=3 n=0.300 U=8 E0=-15.9752284139 deg=1 P_org=-0.0018377854
+info published 18/20-site U/t=8 energies: none found (Lin PRB 44,7151 (1991) not accessible; PRB 72,045113 (2005) EPAPS 20-site values are U/t=5,10,20 only) -> no literature comparison made
+48/48 checks passed
+exit 0

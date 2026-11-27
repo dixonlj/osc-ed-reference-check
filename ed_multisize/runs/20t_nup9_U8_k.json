@@ -1,0 +1,16 @@
+{
+ "tag": "20t_nup9_U8_k",
+ "cluster": "20t",
+ "N": 20,
+ "nup": 9,
+ "ndn": 9,
+ "n": 0.9,
+ "U": 8.0,
+ "method": "k",
+ "est_gb": 203.42,
+ "need_free_gb": 236.43,
+ "seed": 0,
+ "python": "3.13.5",
+ "sector_dim": 1410528080,
+ "status": "skipped: estimated 203.4 GB > budget 5.0 GB (pre-registered rule)"
+}
