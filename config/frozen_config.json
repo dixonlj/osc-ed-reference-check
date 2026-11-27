@@ -1,0 +1,17 @@
+{
+  "model": "square-lattice Hubbard, t = 1, U = 8 (U/t = 8), periodic clusters, Sz = 0 (N_up = N_dn)",
+  "hopping_convention": "H = -t sum_i sum_{d=+x,+y} (c^dag c + h.c.) + U sum n_up n_dn; a length-2 periodic direction counts the bond twice (checked against Ku-ku E0)",
+  "clusters": {"2x4": [[2,0],[0,4]], "sqrt8": [[2,2],[-2,2]], "sqrt10": [[3,1],[-1,3]], "3x4": [[3,0],[0,4]], "4x4": [[4,0],[0,4]], "18t": [[3,3],[-3,3]], "20t": [[4,2],[-2,4]]},
+  "observable": "Ku-ku d-wave pair correlation P_d at the largest minimum-image distance, P_org = 2 P_d (organizer normalization)",
+  "pair_operator": "b_ij = (c_i_up c_j_dn + c_j_up c_i_dn)/sqrt2; Delta_d(i) = 1/2 sum_{+-x,+-y} g b_{i,i+d}; g(+-x) = +1, g(+-y) = -1",
+  "degeneracy_tolerance": 1e-7,
+  "dense_diagonalization_max_dim": 6000,
+  "lanczos": {"residual_tol": 1e-8, "max_iter": 400, "max_restarts": 8, "deflation_shift": 50, "max_degeneracy_per_sector": 8},
+  "seed": 0,
+  "seed_override_env": "OSC_ED_SEED (independent-seed re-runs only)",
+  "memory_rules": {"budget_gb": 5.0, "reserve_gb": 2.5, "start_margin_multisize": 1.15, "watchdog_min_free_gb": 1.2, "nice": 19, "threads": 1, "oom_score_adj": 1000},
+  "ku_ku_match_rule": {"abs_dE0_max": 2e-8, "abs_dP_org_max": "1e-5*|ref| + 1e-8", "same_degeneracy": true, "same_R_max": true},
+  "preregistration_sha256": "504a9e21047076de4039610f67c502f727b49b69100a74ecd681de44d8f64564",
+  "official_reference_revision": "FINAL-Bench/OSC-Superconductor@346f184d3eff51ebf87ffc5da20c6ec74e4cd67e",
+  "environment": {"python": "3.13.5", "numpy": "2.5.5", "scipy": "1.18.1"}
+}
