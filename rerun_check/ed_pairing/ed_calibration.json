@@ -1,0 +1,20 @@
+{
+ "material_id": "OSC-02297",
+ "t": null,
+ "U": null,
+ "nef": 1.79268,
+ "U_over_t": 8.0,
+ "A_dwave": 0.03958027827588491,
+ "official_A_dwave": 0.05849,
+ "n_band": 1.3012,
+ "n_eff": 0.6988000000000001,
+ "solver_delta": null,
+ "provisional_score": 21.286,
+ "level": "ED calibration only, not a submission (locked finite-cluster intercept)",
+ "method_name": "ED 1/N extrapolation (calibration only, not a replacement)",
+ "author": "",
+ "track": "calibration",
+ "calibration_only": true,
+ "flag": "",
+ "formula": "AuBrI3Mn"
+}

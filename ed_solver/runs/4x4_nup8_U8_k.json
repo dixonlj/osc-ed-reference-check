@@ -1,0 +1,108 @@
+{
+ "tag": "4x4_nup8_U8_k",
+ "cluster": "4x4",
+ "N": 16,
+ "nup": 8,
+ "ndn": 8,
+ "n": 1.0,
+ "U": 8.0,
+ "method": "k",
+ "est_gb": 1.79,
+ "seed": 0,
+ "python": "3.13.5",
+ "R_max": 2.8284271247461903,
+ "shell0": [
+  10
+ ],
+ "mem_available_at_start_gb": 9.06,
+ "k_reduction": "C4v stars (energy and P_d(R_max) equal within a star; checked against plain solver at low filling)",
+ "E0": -8.468875014197298,
+ "deg": 1,
+ "solver": "K-sector Lanczos + deflation",
+ "residual_max": 5.38840551023522e-09,
+ "P_d": 0.003098545128910599,
+ "P_org": 0.006197090257821198,
+ "sectors": [
+  {
+   "K_over_pi": [
+    0.0,
+    0.0
+   ],
+   "star_size": 1,
+   "E": -8.468875014196833,
+   "sector_dim": 10579140,
+   "matvecs": 90,
+   "seconds": 4433.0,
+   "E_refined": -8.468875014197298,
+   "in_ground_manifold": true,
+   "deg_in_sector": 1,
+   "P_d_each": [
+    0.003098545128910599
+   ],
+   "residuals": [
+    5.38840551023522e-09
+   ]
+  },
+  {
+   "K_over_pi": [
+    0.0,
+    0.5
+   ],
+   "star_size": 4,
+   "E": -7.539247799547968,
+   "sector_dim": 10579140,
+   "matvecs": 135,
+   "seconds": 9826.0
+  },
+  {
+   "K_over_pi": [
+    0.0,
+    1.0
+   ],
+   "star_size": 2,
+   "E": -7.519005673661193,
+   "sector_dim": 10579140,
+   "matvecs": 135,
+   "seconds": 1177.4
+  },
+  {
+   "K_over_pi": [
+    0.5,
+    0.5
+   ],
+   "star_size": 4,
+   "E": -7.51900567366124,
+   "sector_dim": 10579140,
+   "matvecs": 135,
+   "seconds": 907.2
+  },
+  {
+   "K_over_pi": [
+    0.5,
+    1.0
+   ],
+   "star_size": 4,
+   "E": -7.527224623877608,
+   "sector_dim": 10579140,
+   "matvecs": 130,
+   "seconds": 961.4
+  },
+  {
+   "K_over_pi": [
+    1.0,
+    1.0
+   ],
+   "star_size": 1,
+   "E": -8.284915028485159,
+   "sector_dim": 10579140,
+   "matvecs": 90,
+   "seconds": 715.2
+  }
+ ],
+ "matvecs": 1195,
+ "dim": 169266240,
+ "runtime_s": 21313.0,
+ "peak_rss_gb": 2.221,
+ "status": "ok",
+ "time": "2026-11-25 09:02:57 EST"
+}

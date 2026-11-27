@@ -1,0 +1,20 @@
+{
+ "material_id": "OSC-01188",
+ "t": null,
+ "U": null,
+ "nef": 2.4863,
+ "U_over_t": 8.0,
+ "A_dwave": 0.0,
+ "official_A_dwave": 0.05849,
+ "n_band": 0.7306,
+ "n_eff": 0.7306,
+ "solver_delta": null,
+ "provisional_score": 0.0,
+ "level": "ED calibration only, not a submission (locked intercept clamped to 0)",
+ "method_name": "ED 1/N extrapolation (calibration only, not a replacement)",
+ "author": "",
+ "track": "calibration",
+ "calibration_only": true,
+ "flag": "clamped to 0 (negative)",
+ "formula": "Cr2FeTe4"
+}

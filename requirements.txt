@@ -1,0 +1,3 @@
+numpy==2.5.5
+scipy==1.18.1
+# Python 3.13.5 (CPython). No other dependencies. Tested on Linux x86_64.

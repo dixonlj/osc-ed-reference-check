@@ -1,0 +1,117 @@
+{
+ "tag": "4x4_nup4_U8_k",
+ "cluster": "4x4",
+ "N": 16,
+ "nup": 4,
+ "ndn": 4,
+ "n": 0.5,
+ "U": 8.0,
+ "method": "k",
+ "est_gb": 0.33,
+ "seed": 0,
+ "python": "3.13.5",
+ "R_max": 2.8284271247461903,
+ "shell0": [
+  10
+ ],
+ "mem_available_at_start_gb": 8.09,
+ "k_reduction": "C4v stars (energy and P_d(R_max) equal within a star; checked against plain solver at low filling)",
+ "E0": -16.460626753681836,
+ "deg": 3,
+ "solver": "K-sector Lanczos + deflation",
+ "residual_max": 6.091825476606798e-10,
+ "P_d": 0.02403796177135442,
+ "P_org": 0.04807592354270884,
+ "sectors": [
+  {
+   "K_over_pi": [
+    0.0,
+    0.0
+   ],
+   "star_size": 1,
+   "E": -16.460626753681748,
+   "sector_dim": 222040,
+   "matvecs": 70,
+   "seconds": 5.1,
+   "E_refined": -16.460626753681836,
+   "in_ground_manifold": true,
+   "deg_in_sector": 1,
+   "P_d_each": [
+    0.03629422805839233
+   ],
+   "residuals": [
+    5.125497493538295e-10
+   ]
+  },
+  {
+   "K_over_pi": [
+    0.0,
+    0.5
+   ],
+   "star_size": 4,
+   "E": -15.447484732405623,
+   "sector_dim": 222040,
+   "matvecs": 140,
+   "seconds": 10.1
+  },
+  {
+   "K_over_pi": [
+    0.0,
+    1.0
+   ],
+   "star_size": 2,
+   "E": -16.460626753681762,
+   "sector_dim": 222040,
+   "matvecs": 65,
+   "seconds": 4.3,
+   "E_refined": -16.460626753681655,
+   "in_ground_manifold": true,
+   "deg_in_sector": 1,
+   "P_d_each": [
+    0.017909828627835463
+   ],
+   "residuals": [
+    6.091825476606798e-10
+   ]
+  },
+  {
+   "K_over_pi": [
+    0.5,
+    0.5
+   ],
+   "star_size": 4,
+   "E": -16.338331380898357,
+   "sector_dim": 222040,
+   "matvecs": 65,
+   "seconds": 4.7
+  },
+  {
+   "K_over_pi": [
+    0.5,
+    1.0
+   ],
+   "star_size": 4,
+   "E": -15.299255127732085,
+   "sector_dim": 222040,
+   "matvecs": 195,
+   "seconds": 13.2
+  },
+  {
+   "K_over_pi": [
+    1.0,
+    1.0
+   ],
+   "star_size": 1,
+   "E": -14.228490994846009,
+   "sector_dim": 222040,
+   "matvecs": 185,
+   "seconds": 12.1
+  }
+ ],
+ "matvecs": 1400,
+ "dim": 3552640,
+ "runtime_s": 97.1,
+ "peak_rss_gb": 0.116,
+ "status": "ok",
+ "time": "2026-11-24 22:02:30 EST"
+}
